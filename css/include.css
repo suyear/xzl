@@ -5,7 +5,7 @@
  *  有一部分是重置 bootstrap 的默认样式
  */
 
-@media (min-width: 1050px ) {
+@media (min-width: 1250px ) {
 	.main{
 		width: 73.55%;
 		margin: 0 auto;
@@ -35,7 +35,7 @@ header > .breadcrumb > li > a {
 .index-logo {
 	width:258px;
 	height:89px;
-	margin:110px auto 70px auto;
+	margin:40px auto 70px auto;
 }
 .pre-logo {
 	width: 284px;
@@ -120,6 +120,28 @@ span.glyphicon.glyphicon-star {
 }
 .nav.nav-tabs.nav-justified.pre-input{
 	width: 100%;
+}
+
+/*search*/
+.product-detail > .table tbody > tr > th{
+	font-size: 16.5px;
+	font-weight: 100;
+	width: 35%;
+}
+.product-detail > .table tbody > tr > th:first-child{
+	width: 35%;
+}
+.product-detail > .table tbody > tr > th:last-child{
+	width: 25%;
+	font-size: 24px;
+	font-weight: normal;
+}
+.product-detail > .table tbody > tr:first-child > th{
+	font-size: 19.6px;
+	font-weight: bold;
+}
+.btn{
+	font-size: 16.5px;
 }
 
 /* component */
@@ -242,6 +264,7 @@ ul.dropdown-menu{
 	font-size: 18px;
 } 
 
+
 .product-msg-list{
 	width: 28.125%;
 	float: left;
@@ -249,6 +272,7 @@ ul.dropdown-menu{
 }
 .product-msg-list table tr th{
 	font-weight: normal;
+	font-size: 16.78px;
 }
 
 .product-list {
@@ -259,11 +283,11 @@ ul.dropdown-menu{
 }
 
 .product-list > .list-group {
-	width:180px;
+	width:20.156774916013437%;
 	display: inline-block;
 	text-align: center;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 2.2396416573348264%;
+	margin-right: 2.2396416573348264%;
 }
 .product-list > .list-group > .img-thumbnail > img{
 	width: 100%;
