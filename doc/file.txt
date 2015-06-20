@@ -1,0 +1,14 @@
+﻿index 主页
+product 产品列表
+component 产品成分
+compare 产品对比
+search 成分查询
+detail 成分查询详情
+
+./css/reset.css
+样式初始化
+
+./css/include.css
+页面样式
+
+./js/include.js

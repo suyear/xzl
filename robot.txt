@@ -1,0 +1,7 @@
+﻿#
+# robots.txt for xiezhuanghou.com
+#
+
+User-agent: *
+
+Disallow: ./
